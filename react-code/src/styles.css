@@ -1,0 +1,292 @@
+
+.input-body{
+  text-align: center;
+}
+
+
+.input-title{
+  font-family: 'Rubik', sans-serif;
+  color:#ffffff;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 1px;
+  color:#73C79C;
+}
+
+.input-description{
+  font-family: 'Rubik', sans-serif;
+  
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align:center;
+  padding-bottom:1px ;
+  
+}
+
+.input-field{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  padding:5px;
+  padding-left: 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #3b3b3b;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.input-submit-button{
+  background-color: #009B9A;
+  border:none;
+  color:white;
+  width: 150px;
+  height: auto;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(27, 27, 27, 0.3);
+}
+
+body{
+  background-color: #272824;
+}
+
+.navigation-panel {
+    background-color: #272824;
+    padding: 30px;
+    grid-template-columns:1fr 40fr 2fr 1fr;
+    display: grid;
+
+  }
+  
+.brand-name {
+    color:#73C79C;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+}
+
+
+.white-background{
+  background-color:white ;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 70px;
+  
+
+}
+
+.container{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 25px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 10px;
+}
+
+
+
+.item-title{
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+  
+}
+
+.item-shop{
+  font-size: 16px;
+  font-weight: 5;
+  letter-spacing: 0.5px;
+  padding-bottom: 3px
+
+}
+
+.item-price{
+  font-size: 25px;
+  font-weight: 500;
+ 
+  color:#009B9A;
+}
+
+img{
+  width:300px;
+
+}
+
+.the-row{
+  grid-template-columns: 1fr 1fr 2fr;
+  display: grid;
+  padding: 3px;
+  padding-left: 0;
+  color:#73C79C
+}
+
+.review-result-container{
+  padding: 9x;
+  background-color: #EE4C5F;
+  margin-top: 15px;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.review-title{
+  padding: 5px;
+  padding-bottom: 3px;
+  font-size: 15px;
+  color: white;
+}
+
+.item-review{
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.redirect-page-link{
+  padding-top:10px;
+  color:gray;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 30;
+  color:#73C79C;
+  font-size: 4rem;
+ 
+  margin-top: 10px;
+  
+}
+
+
+
+.item-img-prev{
+  width: 15em;
+  height: 15em;
+  padding: 10px;
+  
+}
+
+.container-preview{
+  width: 18em;
+  height: 25em;
+  background-color: #3b3b39;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.container-preview:hover {
+  transform: scale(1.05);
+}
+
+.image-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.page{
+  background-color: #272824;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px; 
+  padding: 100px;
+}
+
+.item-title-preview{
+  font-size: 5 vw;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  -webkit-text-fill-color: white;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  
+}
+
+.item-shop-preview{
+  font-weight: 100;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  color: rgb(196, 196, 196);
+}
+
+.item-price-preview{
+  font-size: 20px;
+  font-weight: 500;
+  color: #73C79C;
+}
+
+.text-wrapper{
+  font-family: 'Rubik', sans-serif;
+  padding: 15px;
+}
+
+.search-bar{
+  width: 500px;
+  height: 40px;
+  margin-right: 3rem;
+  margin-top: 2%;
+  border-radius: 10px;
+  background-color: #3b3b39;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: large;
+  padding: 5px;
+  padding-left: 15spx;
+  color: white;
+}
+
+
+
+.pagination{
+  text-align: center;
+}
+.pagination button{
+  width: 50px;
+  height: 50px;
+  font-family:'Rubik', sans-serif ;
+  font-size: 20px;
+  margin: 30px 20px ;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background: transparent;
+  color: #73C79C;
+  
+  
+}
+
+.pagination button.active{
+  background-color: #73C79C;
+  color: #272824;
+  border-radius: 100px;
+}
