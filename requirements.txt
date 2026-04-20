@@ -1,0 +1,8 @@
+asyncio
+pandas
+google-generativeai
+pydantic
+pydantic-ai
+nest-asyncio
+bertopic
+sentence-transformers
